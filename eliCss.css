@@ -1,0 +1,234 @@
+#eliDiv{
+    color: #6CBBA9; color :rgb(108, 187, 169);
+    color: #F9A303; color : rgb(93, 90, 128);
+    color: #FFFDFE;
+    color: #B7A29F;
+    color: #5D5A80; color:  rgb(93, 90, 128);
+    color: #6C638B;
+    color: #A4D4CC;
+    color: #CAE4DA;
+    color: #D5D5D5;
+    
+
+    color: #6222cc;   color: #6CBBA9; 
+
+    color: #5EB4D9;
+    color: #5EB4D9;
+    color: #F4FFFE;
+    color:#BDFCF2 ;
+    color: #84EDEE;
+    color: #FFFFFF;
+    
+    color: darkseagreen;
+
+
+}
+
+.main-div{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+a , li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.navbar {
+display: flex;
+    width: 100%;
+    background-color: #D5D5D5; 
+    height: 100px;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    align-items: center;
+    
+    
+
+
+}
+.navbar a h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+/* .navbar{
+    background-color: #D5D5D5; 
+    height: 100px;
+} */
+.navbar-nav a{
+    color : black;
+}
+.navbar-nav a:hover{
+    color: black;
+}
+
+ .fa,.fas, .fab{
+    color: #F9A303 ;
+
+}
+.footer .fa,.footer.fas, .footer div .fab{
+    color: #F9A303 ;
+ } 
+ .profil-photo{
+     background-image: url("img/ax-linkedinResized.png");
+     height: 300px;
+     width: 300px;
+     background-position: 45% 5%;
+     
+ }
+
+ .skils{ 
+    /* background-color : rgb(108, 187, 169 , 0.5);  */
+    background-color : rgb(108, 187, 169, 0,5 ); 
+}
+.main-skil-Background{
+    color : rgb(202, 228, 218);
+}
+.skil-Background{
+    background-image: url("img/blob-secondaryResized.png");
+    background-repeat:no-repeat;
+    background-position: center;
+ 
+}
+.body-skils{
+    border-radius: 100px;
+    background-color : #D5D5D5;
+
+}
+
+.background1{
+    background-image: linear-gradient(#5D5A80 20%, #F4D388 50%, #5D5A80 80%);
+    
+    
+}
+.background1> h5{
+    color:black;
+    font-size: 23px;
+}
+.background2{
+    background-color: #5D5A80;
+}
+.background3{
+    background-image: linear-gradient(#D5D5D5 10%, #6CBBA9 60%, #D5D5D5 80%);
+     
+}
+.background4{
+background-image: linear-gradient( #5D5A80 20%, #6CBBA9 50%, #5D5A80 80%);
+
+}
+
+.about * {
+    color :black
+}
+
+#email:hover , a{
+    color: white;
+
+}
+#etc i{
+    color: #F9A303;
+    padding-left: o;
+    padding-right:20px ;
+}
+
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+.btn {
+    font-weight: 500;
+    transition: .5s;
+}
+.btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+/* .navbar .dropdown-toggle::after { */
+    /* border: none; */
+    /* content: "\f067"; */
+    /* font-family: "Font Awesome 5 Free"; */
+    /* font-size: 10px; */
+    /* font-weight: bold; */
+    /* vertical-align: middle; */
+    /* margin-left: 8px; */
+/* } */
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+    color: var(--secondary);
+}
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    transition: .3s;
+}
+ .footer .btn.btn-social { 
+    
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(256, 256, 256, .1);
+    border-radius: 40px;
+    transition: .3s;
+}*/
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+    color: #FFFFFF;
+    background: var(--primary);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* #media *{  */
+     /* position:relative; */
+    /* left: 75%; */
+/* } */
